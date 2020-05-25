@@ -133,6 +133,16 @@
     left: 20px;
 }
 
+.screen .time {
+    background-image: url(../image/time.PNG);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+    left: 520px;
+}
+
 .screen .game-name {
     font-size: 20px;
     color: #249ef0;
@@ -239,11 +249,11 @@
 }
 
 .footer .options {
-    width: 900px;
+    width: 600px;
     height: 50px;
     position: relative;
-    top: -20px;
-    left: 150px;
+    top: 0px;
+    left: 95px;
 }
 
 .options .button1, .button2, .button3, .button4 {
@@ -284,4 +294,96 @@
     left: 1000px;
     top: -875px;
     border-radius: 0 80px 80px 0;
+}
+
+.container-vermelho .start {
+    background-color: black;
+    width: 25px;
+    height: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    text-shadow: 10px 10px solid #2c3e50;
+}
+
+.start .start2 {
+    background-color: black;
+    width: 5px;
+    height: 25px;
+    border-radius: 10px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+    text-shadow: 10px 10px solid #2c3e50;
+}
+
+.container-vermelho .button {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 70px;
+    left: 0px;
+}
+
+.button p {
+    color: white;
+    position: relative;
+    top: 4px;
+    left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-vermelho .button-1, .button-2, .button-3, .button-4 {
+    background-color: #18222c;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.button-1 {
+    position: relative;
+    right: 10px;
+}
+
+.button-2 {
+    position: relative;
+    top: 0px;
+    left: 18px;
+}
+
+.button-3 {
+    position: relative;
+    left: -35px;
+    top: -27px;
+}
+
+.button-4 {
+    position: relative;
+    top: -28px;
+    left: -8px;
+}
+
+.container-vermelho .analogico {
+    background-color: #18222c;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: 70px;
+    left: 40px;
+    border: 3px solid black;
+}
+
+.container-vermelho .home {
+    width: 30px;
+    height: 30px;
+    background-color: #18222c;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: relative;
+    top: 110px;
+    left: 20px;
 }
